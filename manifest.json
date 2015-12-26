@@ -1,0 +1,14 @@
+{
+	"manifest_version": 2,
+
+	"name": "Steam Winter Sale 2015",
+	"description": "Automaticall skips through discovery queue",
+	"version": "1.0",
+
+	"content_scripts": [
+		{
+			 "matches": ["http://store.steampowered.com/*"],
+			 "js": ["main.js"]
+		}
+	]
+}
