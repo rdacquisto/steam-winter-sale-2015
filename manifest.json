@@ -3,10 +3,13 @@
 
 	"name": "Steam Winter Sale 2015",
 	"description": "Automaticall skips through discovery queue",
-	"version": "1.0",
+	"version": "0.1",
 
 	"content_scripts": [
 		{
+			 "matches": ["http://store.steampowered.com/agecheck/*"],
+			 "js": ["agecheck.js"]
+		},{
 			 "matches": ["http://store.steampowered.com/*"],
 			 "js": ["main.js"]
 		}
