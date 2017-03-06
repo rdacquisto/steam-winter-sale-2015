@@ -10,6 +10,9 @@
 			 "matches": ["http://store.steampowered.com/agecheck/*"],
 			 "js": ["agecheck.js"]
 		},{
+			 "matches": ["http://store.steampowered.com/app/*/agecheck*"],
+			 "js": ["appagecheck.js"]
+		},{
 			 "matches": ["http://store.steampowered.com/*"],
 			 "js": ["main.js"]
 		}
