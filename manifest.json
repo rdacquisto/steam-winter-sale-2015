@@ -7,13 +7,13 @@
 
 	"content_scripts": [
 		{
-			 "matches": ["http://store.steampowered.com/agecheck/*"],
+			 "matches": ["https://store.steampowered.com/agecheck/*"],
 			 "js": ["agecheck.js"]
 		},{
-			 "matches": ["http://store.steampowered.com/app/*/agecheck*"],
+			 "matches": ["https://store.steampowered.com/app/*/agecheck*"],
 			 "js": ["appagecheck.js"]
 		},{
-			 "matches": ["http://store.steampowered.com/*"],
+			 "matches": ["https://store.steampowered.com/*"],
 			 "js": ["main.js"]
 		}
 	]
